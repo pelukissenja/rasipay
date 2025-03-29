@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Dashboard{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="{{ url_for('dashboard.dashboard') }}">Dashboard</a></li>
+                <li><a href="#">Laporan</a></li>
+                <li><a href="#">Pengguna</a></li>
+                <li><a href="#">Pengaturan</a></li>
+                <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <h2>Dashboard</h2>
+            </nav>
+
+            <!-- Page Content -->
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
