@@ -105,7 +105,7 @@ Jika Anda ingin berkontribusi, silakan buat **Pull Request** atau **Issue**.
 ---
 
 ## 📜 **Lisensi**
-MIT License © 2025 Nama Anda
+MIT License © 2025 pelukissenja | @kang_ghostin9
 
 ---
 
