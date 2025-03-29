@@ -110,6 +110,6 @@ MIT License © 2025 pelukissenja | @kang_ghostin9
 ---
 
 ## 📩 **Kontak & Feedback**
-Jika ada pertanyaan atau saran, hubungi saya di [email@example.com](mailto:email@example.com) atau buat **Issue** di repository ini.
+Jika ada pertanyaan atau saran, hubungi saya di [@kang_ghostin9](mailto:dhedheerik88@gmail.com) atau buat **Issue** di repository ini.
 
 🎯 **Selamat Membangun Aplikasi! 🚀**
